@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4078B3F1220061DF00D44356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B3F0220061DF00D44356 /* AppDelegate.swift */; };
+		4078B3F3220061DF00D44356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B3F2220061DF00D44356 /* ViewController.swift */; };
+		4078B3F6220061DF00D44356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4078B3F4220061DF00D44356 /* Main.storyboard */; };
+		4078B3F8220061DF00D44356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4078B3F7220061DF00D44356 /* Assets.xcassets */; };
+		4078B3FB220061DF00D44356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4078B3F9220061DF00D44356 /* LaunchScreen.storyboard */; };
+		4078B406220061DF00D44356 /* SampleChagAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B405220061DF00D44356 /* SampleChagAppTests.swift */; };
+		4078B411220061DF00D44356 /* SampleChagAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B410220061DF00D44356 /* SampleChagAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4078B402220061DF00D44356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4078B3E5220061DF00D44356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4078B3EC220061DF00D44356;
+			remoteInfo = SampleChagApp;
+		};
+		4078B40D220061DF00D44356 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4078B3E5220061DF00D44356 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4078B3EC220061DF00D44356;
+			remoteInfo = SampleChagApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4078B3ED220061DF00D44356 /* SampleChagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleChagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4078B3F0220061DF00D44356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4078B3F2220061DF00D44356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4078B3F5220061DF00D44356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4078B3F7220061DF00D44356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4078B3FA220061DF00D44356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4078B3FC220061DF00D44356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4078B401220061DF00D44356 /* SampleChagAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleChagAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4078B405220061DF00D44356 /* SampleChagAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleChagAppTests.swift; sourceTree = "<group>"; };
+		4078B407220061DF00D44356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4078B40C220061DF00D44356 /* SampleChagAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleChagAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4078B410220061DF00D44356 /* SampleChagAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleChagAppUITests.swift; sourceTree = "<group>"; };
+		4078B412220061DF00D44356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4078B3EA220061DF00D44356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4078B3FE220061DF00D44356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4078B409220061DF00D44356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4078B3E4220061DF00D44356 = {
+			isa = PBXGroup;
+			children = (
+				4078B3EF220061DF00D44356 /* SampleChagApp */,
+				4078B404220061DF00D44356 /* SampleChagAppTests */,
+				4078B40F220061DF00D44356 /* SampleChagAppUITests */,
+				4078B3EE220061DF00D44356 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4078B3EE220061DF00D44356 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4078B3ED220061DF00D44356 /* SampleChagApp.app */,
+				4078B401220061DF00D44356 /* SampleChagAppTests.xctest */,
+				4078B40C220061DF00D44356 /* SampleChagAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4078B3EF220061DF00D44356 /* SampleChagApp */ = {
+			isa = PBXGroup;
+			children = (
+				4078B3F0220061DF00D44356 /* AppDelegate.swift */,
+				4078B3F2220061DF00D44356 /* ViewController.swift */,
+				4078B3F4220061DF00D44356 /* Main.storyboard */,
+				4078B3F7220061DF00D44356 /* Assets.xcassets */,
+				4078B3F9220061DF00D44356 /* LaunchScreen.storyboard */,
+				4078B3FC220061DF00D44356 /* Info.plist */,
+			);
+			path = SampleChagApp;
+			sourceTree = "<group>";
+		};
+		4078B404220061DF00D44356 /* SampleChagAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4078B405220061DF00D44356 /* SampleChagAppTests.swift */,
+				4078B407220061DF00D44356 /* Info.plist */,
+			);
+			path = SampleChagAppTests;
+			sourceTree = "<group>";
+		};
+		4078B40F220061DF00D44356 /* SampleChagAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4078B410220061DF00D44356 /* SampleChagAppUITests.swift */,
+				4078B412220061DF00D44356 /* Info.plist */,
+			);
+			path = SampleChagAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4078B3EC220061DF00D44356 /* SampleChagApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4078B415220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagApp" */;
+			buildPhases = (
+				4078B3E9220061DF00D44356 /* Sources */,
+				4078B3EA220061DF00D44356 /* Frameworks */,
+				4078B3EB220061DF00D44356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleChagApp;
+			productName = SampleChagApp;
+			productReference = 4078B3ED220061DF00D44356 /* SampleChagApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4078B400220061DF00D44356 /* SampleChagAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4078B418220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagAppTests" */;
+			buildPhases = (
+				4078B3FD220061DF00D44356 /* Sources */,
+				4078B3FE220061DF00D44356 /* Frameworks */,
+				4078B3FF220061DF00D44356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4078B403220061DF00D44356 /* PBXTargetDependency */,
+			);
+			name = SampleChagAppTests;
+			productName = SampleChagAppTests;
+			productReference = 4078B401220061DF00D44356 /* SampleChagAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4078B40B220061DF00D44356 /* SampleChagAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4078B41B220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagAppUITests" */;
+			buildPhases = (
+				4078B408220061DF00D44356 /* Sources */,
+				4078B409220061DF00D44356 /* Frameworks */,
+				4078B40A220061DF00D44356 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4078B40E220061DF00D44356 /* PBXTargetDependency */,
+			);
+			name = SampleChagAppUITests;
+			productName = SampleChagAppUITests;
+			productReference = 4078B40C220061DF00D44356 /* SampleChagAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4078B3E5220061DF00D44356 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "原田摩利奈";
+				TargetAttributes = {
+					4078B3EC220061DF00D44356 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4078B400220061DF00D44356 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4078B3EC220061DF00D44356;
+					};
+					4078B40B220061DF00D44356 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4078B3EC220061DF00D44356;
+					};
+				};
+			};
+			buildConfigurationList = 4078B3E8220061DF00D44356 /* Build configuration list for PBXProject "SampleChagApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4078B3E4220061DF00D44356;
+			productRefGroup = 4078B3EE220061DF00D44356 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4078B3EC220061DF00D44356 /* SampleChagApp */,
+				4078B400220061DF00D44356 /* SampleChagAppTests */,
+				4078B40B220061DF00D44356 /* SampleChagAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4078B3EB220061DF00D44356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4078B3FB220061DF00D44356 /* LaunchScreen.storyboard in Resources */,
+				4078B3F8220061DF00D44356 /* Assets.xcassets in Resources */,
+				4078B3F6220061DF00D44356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4078B3FF220061DF00D44356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4078B40A220061DF00D44356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4078B3E9220061DF00D44356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4078B3F3220061DF00D44356 /* ViewController.swift in Sources */,
+				4078B3F1220061DF00D44356 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4078B3FD220061DF00D44356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4078B406220061DF00D44356 /* SampleChagAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4078B408220061DF00D44356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4078B411220061DF00D44356 /* SampleChagAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4078B403220061DF00D44356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4078B3EC220061DF00D44356 /* SampleChagApp */;
+			targetProxy = 4078B402220061DF00D44356 /* PBXContainerItemProxy */;
+		};
+		4078B40E220061DF00D44356 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4078B3EC220061DF00D44356 /* SampleChagApp */;
+			targetProxy = 4078B40D220061DF00D44356 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4078B3F4220061DF00D44356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4078B3F5220061DF00D44356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4078B3F9220061DF00D44356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4078B3FA220061DF00D44356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4078B413220061DF00D44356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4078B414220061DF00D44356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4078B416220061DF00D44356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleChagApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marina.SampleChagApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4078B417220061DF00D44356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleChagApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marina.SampleChagApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4078B419220061DF00D44356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleChagAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marina.SampleChagAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleChagApp.app/SampleChagApp";
+			};
+			name = Debug;
+		};
+		4078B41A220061DF00D44356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleChagAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marina.SampleChagAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SampleChagApp.app/SampleChagApp";
+			};
+			name = Release;
+		};
+		4078B41C220061DF00D44356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleChagAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marina.SampleChagAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleChagApp;
+			};
+			name = Debug;
+		};
+		4078B41D220061DF00D44356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SampleChagAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = marina.SampleChagAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SampleChagApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4078B3E8220061DF00D44356 /* Build configuration list for PBXProject "SampleChagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4078B413220061DF00D44356 /* Debug */,
+				4078B414220061DF00D44356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4078B415220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4078B416220061DF00D44356 /* Debug */,
+				4078B417220061DF00D44356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4078B418220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4078B419220061DF00D44356 /* Debug */,
+				4078B41A220061DF00D44356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4078B41B220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4078B41C220061DF00D44356 /* Debug */,
+				4078B41D220061DF00D44356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4078B3E5220061DF00D44356 /* Project object */;
+}
