@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31CC00D17D81C8CDA38D6195 /* Pods_SampleChagApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E62769CA13DE8EC73F4583D /* Pods_SampleChagApp.framework */; };
 		4078B3F1220061DF00D44356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B3F0220061DF00D44356 /* AppDelegate.swift */; };
 		4078B3F3220061DF00D44356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B3F2220061DF00D44356 /* ViewController.swift */; };
 		4078B3F6220061DF00D44356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4078B3F4220061DF00D44356 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		4078B3FB220061DF00D44356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4078B3F9220061DF00D44356 /* LaunchScreen.storyboard */; };
 		4078B406220061DF00D44356 /* SampleChagAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B405220061DF00D44356 /* SampleChagAppTests.swift */; };
 		4078B411220061DF00D44356 /* SampleChagAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4078B410220061DF00D44356 /* SampleChagAppUITests.swift */; };
+		4086C72622006758001A0EB1 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086C72522006758001A0EB1 /* ShowViewController.swift */; };
+		4086C7282200676C001A0EB1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4086C7272200676C001A0EB1 /* PostViewController.swift */; };
+		4086C72A22007111001A0EB1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4086C72922007111001A0EB1 /* GoogleService-Info.plist */; };
+		40CF4933220993E100AEAFB5 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4932220993E100AEAFB5 /* Post.swift */; };
+		40CF493B220995B200AEAFB5 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CF4939220995B200AEAFB5 /* CustomTableViewCell.swift */; };
+		40CF493C220995B200AEAFB5 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40CF493A220995B200AEAFB5 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EBBEAB17F58D8030E6478A8 /* Pods-SampleChagApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChagApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleChagApp/Pods-SampleChagApp.release.xcconfig"; sourceTree = "<group>"; };
 		4078B3ED220061DF00D44356 /* SampleChagApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleChagApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4078B3F0220061DF00D44356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4078B3F2220061DF00D44356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		4078B40C220061DF00D44356 /* SampleChagAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleChagAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4078B410220061DF00D44356 /* SampleChagAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleChagAppUITests.swift; sourceTree = "<group>"; };
 		4078B412220061DF00D44356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4086C72522006758001A0EB1 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		4086C7272200676C001A0EB1 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		4086C72922007111001A0EB1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		40CF4932220993E100AEAFB5 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		40CF4939220995B200AEAFB5 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		40CF493A220995B200AEAFB5 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		8E62769CA13DE8EC73F4583D /* Pods_SampleChagApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleChagApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB71E45D486B620E0DE9C3F7 /* Pods-SampleChagApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleChagApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleChagApp/Pods-SampleChagApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CC00D17D81C8CDA38D6195 /* Pods_SampleChagApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				4078B404220061DF00D44356 /* SampleChagAppTests */,
 				4078B40F220061DF00D44356 /* SampleChagAppUITests */,
 				4078B3EE220061DF00D44356 /* Products */,
+				F66AA87DB3C45F406E633975 /* Pods */,
+				52EDB881CB7AD19CC0F2FDC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +116,11 @@
 		4078B3EF220061DF00D44356 /* SampleChagApp */ = {
 			isa = PBXGroup;
 			children = (
+				40CF4934220994C600AEAFB5 /* CustomCell */,
+				40CF4931220993CA00AEAFB5 /* Model */,
+				4086C72922007111001A0EB1 /* GoogleService-Info.plist */,
+				4086C720220066D0001A0EB1 /* ViewController */,
 				4078B3F0220061DF00D44356 /* AppDelegate.swift */,
-				4078B3F2220061DF00D44356 /* ViewController.swift */,
 				4078B3F4220061DF00D44356 /* Main.storyboard */,
 				4078B3F7220061DF00D44356 /* Assets.xcassets */,
 				4078B3F9220061DF00D44356 /* LaunchScreen.storyboard */,
@@ -125,6 +147,50 @@
 			path = SampleChagAppUITests;
 			sourceTree = "<group>";
 		};
+		4086C720220066D0001A0EB1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4078B3F2220061DF00D44356 /* ViewController.swift */,
+				4086C72522006758001A0EB1 /* ShowViewController.swift */,
+				4086C7272200676C001A0EB1 /* PostViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		40CF4931220993CA00AEAFB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40CF4932220993E100AEAFB5 /* Post.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40CF4934220994C600AEAFB5 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				40CF4939220995B200AEAFB5 /* CustomTableViewCell.swift */,
+				40CF493A220995B200AEAFB5 /* CustomTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		52EDB881CB7AD19CC0F2FDC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E62769CA13DE8EC73F4583D /* Pods_SampleChagApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F66AA87DB3C45F406E633975 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB71E45D486B620E0DE9C3F7 /* Pods-SampleChagApp.debug.xcconfig */,
+				3EBBEAB17F58D8030E6478A8 /* Pods-SampleChagApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4078B415220061DF00D44356 /* Build configuration list for PBXNativeTarget "SampleChagApp" */;
 			buildPhases = (
+				AF729C9B2B1B999BEBB6AED9 /* [CP] Check Pods Manifest.lock */,
 				4078B3E9220061DF00D44356 /* Sources */,
 				4078B3EA220061DF00D44356 /* Frameworks */,
 				4078B3EB220061DF00D44356 /* Resources */,
+				8255CCBAE15D5931F08EE97F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,7 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4078B3FB220061DF00D44356 /* LaunchScreen.storyboard in Resources */,
+				4086C72A22007111001A0EB1 /* GoogleService-Info.plist in Resources */,
 				4078B3F8220061DF00D44356 /* Assets.xcassets in Resources */,
+				40CF493C220995B200AEAFB5 /* CustomTableViewCell.xib in Resources */,
 				4078B3F6220061DF00D44356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +321,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8255CCBAE15D5931F08EE97F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SampleChagApp/Pods-SampleChagApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleChagApp/Pods-SampleChagApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF729C9B2B1B999BEBB6AED9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleChagApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4078B3E9220061DF00D44356 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40CF493B220995B200AEAFB5 /* CustomTableViewCell.swift in Sources */,
+				4086C7282200676C001A0EB1 /* PostViewController.swift in Sources */,
 				4078B3F3220061DF00D44356 /* ViewController.swift in Sources */,
 				4078B3F1220061DF00D44356 /* AppDelegate.swift in Sources */,
+				4086C72622006758001A0EB1 /* ShowViewController.swift in Sources */,
+				40CF4933220993E100AEAFB5 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +555,7 @@
 		};
 		4078B416220061DF00D44356 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB71E45D486B620E0DE9C3F7 /* Pods-SampleChagApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +573,7 @@
 		};
 		4078B417220061DF00D44356 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBBEAB17F58D8030E6478A8 /* Pods-SampleChagApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

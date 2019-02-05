@@ -1,0 +1,6 @@
+framework module Pods_SampleChagApp {
+  umbrella header "Pods-SampleChagApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
